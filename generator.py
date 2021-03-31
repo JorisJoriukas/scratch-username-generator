@@ -9,4 +9,5 @@ def pick(words):
     return word_picked
 while True:
      print(pick(verb), pick(name), 'a', pick(noun), end='.')
+     print('Heres your username.')
      input()
