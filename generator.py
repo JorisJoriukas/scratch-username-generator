@@ -1,6 +1,6 @@
 from random import randint
 name = ['apples', 'bananas', 'oranges', 'cats', 'dogs']
-verb = ['blue', 'green', 'red']
+verb = ['blue', 'green', 'red', 'orange', 'purple', 'awesome', 'epic', 'deadly', 'brave']
 noun = [randint(1, 999)]
 def pick(words):
     num_words = len(words)
