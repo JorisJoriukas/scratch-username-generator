@@ -1,6 +1,6 @@
 from random import randint
-name = ['apples', 'bananas', 'oranges', 'cats', 'dogs']
-verb = ['blue', 'green', 'red', 'orange', 'purple', 'awesome', 'epic', 'deadly', 'brave']
+name = ['Apples', 'Bananas', 'Oranges', 'Cats', 'Dogs']
+verb = ['Blue', 'Green', 'Red', 'Orange', 'Purple', 'Awesome', 'Epic', 'Deadly', 'Brave']
 noun = [randint(1, 999)]
 def pick(words):
     num_words = len(words)
@@ -8,7 +8,8 @@ def pick(words):
     word_picked = words[num_picked]
     return word_picked
 while True:
-     print(pick(verb), pick(name), pick(noun))
+     username = pick(verb),pick(name),pick(noun)
+     print(username)
      print('Here\'s your username.')
      input()
     
