@@ -11,5 +11,5 @@ while True:
      username = pick(verb),pick(name),pick(noun)
      print(username)
      print('Here\'s your username.')
-     input()
+     input(
     
